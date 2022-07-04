@@ -5177,7 +5177,8 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
+  margin-top: 0%;
 }
 
 .navbar .container,
@@ -8139,8 +8140,8 @@ button.bg-dark:focus {
 }
 
 .d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
+  /* display: -webkit-box !important;
+  display: -ms-flexbox !important; */
   display: flex !important;
 }
 
@@ -12313,7 +12314,7 @@ h5,
 .eco-navbar-light {
   background: transparent !important;
   position: absolute;
-  top: 160px;
+  top: 90px;
   left: 0;
   right: 0;
   z-index: 3;
