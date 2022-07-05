@@ -828,8 +828,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 
 .col {
@@ -7901,7 +7901,11 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #181818 !important;
+}
+
+.bg-secondary1 {
+  background-color: #1d1d1d !important;
 }
 
 a.bg-secondary:hover,
@@ -9848,7 +9852,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1rem !important;
+  padding-top: 2rem !important;
 }
 
 .pr-3,
@@ -12566,10 +12570,11 @@ h5,
 }
 
 .hero-wrap {
-  width: 100%;
-  height: 660px;
-  margin-top: 25px;
+  width: 99%;
+  height: 700px;
+  margin-top: 7px;
   position: relative;
+  margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -13263,7 +13268,7 @@ h5,
   bottom: 0;
   content: '';
   width: 360%;
-  background: #386500;
+  background: #1d1d1d;
 }
 
 @media (max-width: 767.98px) {
@@ -13330,6 +13335,15 @@ textarea.form-control {
 .bg-primary {
   background: #e99c02 !important;
 }
+
+.bg-primary1 {
+  background: #152a76 !important;
+}
+
+.bg-primary2 {
+  background: #e99c02ab !important;
+}
+
 
 .bg-secondary {
   background: #386500 !important;
@@ -13615,14 +13629,15 @@ textarea.form-control {
 }
 
 .map {
-  height: 400px;
-  width: 100%;
-  margin:10px
+  height: 405px;
+  width: 350px;
+  margin: 5px
 }
 
 @media (max-width: 767.98px) {
   #map {
-    height: 200px;
+    height: 170px;
+    width: 200px;
   }
 }
 
@@ -14000,8 +14015,8 @@ textarea.form-control {
 }
 
 .eco-counter .block-18 {
-  display: block;
-  width: 50%;
+  display: flow-root;
+  width: 40%;
   margin-bottom: 5px;
   background: rgba(0, 0, 0, 0.05);
   background: #fff;
@@ -14418,6 +14433,7 @@ textarea.form-control {
 .contact-section .img {
   width: 100%;
   background-position: top center;
+  
 }
 
 .contact-section .contact-info p a {
@@ -14427,7 +14443,7 @@ textarea.form-control {
 .contact-section .contact-form {
   width: 100%;
   border-radius: 5px;
-  background: #e99c02;
+  background: rgb(92 90 86);
   display: flex;
   margin-bottom: 20px;
 }
@@ -15057,4 +15073,35 @@ textarea.form-control {
   justify-content: center;
   /* font-size: 40PX; */
   text-transform: uppercase;
+}
+
+
+@media (max-width: 300px) {
+  #mobile {
+    /* background-color: red; */
+    content: url("/images/eco/03.jpg");
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  #mobile {
+    /* background-color: blue; */
+    content: url("/images/eco/03.jpg");
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  #mobile {
+    /* background-color: yellow; */
+    content: url("/images/eco/01.jpg");
+  }
+}
+
+@media (min-width: 769px) {
+  #mobile {
+    /* background-color: green; */
+    content: url("/images/eco/01.jpg");
+  }
 }
