@@ -12173,7 +12173,8 @@ font-family: 'Nunito', sans-serif;
   font-size: 17px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999;
+  /* color: #999999; */
+  color: black;
   overflow-x: hidden;
 }
 
@@ -12581,7 +12582,7 @@ h5,
 
 .hero-wrap {
   width: 99%;
-  height: 700px;
+  height: 680px;
   margin-top: 7px;
   position: relative;
   margin: auto;
@@ -12988,10 +12989,10 @@ h5,
 }
 
 .services-wrap {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   background-color: #e0a800;
   padding: 20px;
-  border-radius: 3px;
+  border-radius: 10px;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -13341,7 +13342,7 @@ textarea.form-control {
 .eco-animate {
   opacity: 0;
   visibility: hidden;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .bg-primary {
@@ -14040,7 +14041,9 @@ textarea.form-control {
 
 @media (max-width: 767.98px) {
   .eco-counter .block-18 {
-    width: 100%;
+    width: 77%;
+    margin-left: 40%;
+    text-align: center;
   }
 }
 
@@ -15090,7 +15093,7 @@ font-family: 'Nunito', sans-serif;
   text-transform: uppercase;
 }
 
-
+/* ***************************************************** */
 @media (max-width: 300px) {
   #mobile {
     /* background-color: red; */
@@ -15118,5 +15121,36 @@ font-family: 'Nunito', sans-serif;
   #mobile {
     /* background-color: green; */
     content: url("/images/eco/01.jpg");
+  }
+}
+
+/* ********************our leadership*********************** */
+@media (max-width: 300px) {
+  #leader {
+    /* background-color: red; */
+    content: url("/images/eco/shrikhande\ sir.png");
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  #leader {
+    /* background-color: blue; */
+    content: url("/images/eco/shrikhande\ sir.png");
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  #leader {
+    /* background-color: yellow; */
+    content: url("/images/eco/shrikhande\ sir.png");
+  }
+}
+
+@media (min-width: 769px) {
+  #leader {
+    /* background-color: green; */
+    content: url("/images/eco/shrikhande\ sir.png");
   }
 }
