@@ -5090,6 +5090,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-weight:600;
 }
 
 .nav-link:hover,
@@ -12388,13 +12389,13 @@ h5,
 }
 
 .eco-navbar-light .navbar-nav>.nav-item>.nav-link {
-  font-size: 14px;
+  font-size: 16px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 25px;
   padding-right: 25px;
   color: #fff;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -14450,6 +14451,8 @@ textarea.form-control {
 
 .block-6 .media-body p {
   font-size: 16px;
+  font-weight:bold;
+  color: white;
 }
 
 .block-27 ul {
@@ -15065,7 +15068,7 @@ textarea.form-control {
 /* Side Bar */
 .icon-bar {
   position: fixed;
-  top: 70%;
+  top: 60%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -15327,6 +15330,7 @@ font-family: 'Nunito', sans-serif;
   border-radius: 50px;
   text-align: left;
   border: 1px solid #bfdcf7;
+
 }
 #footer .footer-newsletter form input[type=email] {
   border: 0;
