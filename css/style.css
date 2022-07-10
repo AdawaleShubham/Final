@@ -8076,7 +8076,7 @@ button.bg-dark:focus {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 1.45rem !important;
 }
 
 .rounded-top {
@@ -12581,7 +12581,7 @@ h5,
 }
 
 .hero-wrap {
-  width: 99%;
+  width: 100%;
   height: 680px;
   margin-top: 7px;
   position: relative;
@@ -13925,8 +13925,12 @@ textarea.form-control {
 .testimony-wrap {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: white;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 4px;
+  text-transform: uppercase;
   padding: 10px;
   margin-bottom: 0;
   z-index: 0;
