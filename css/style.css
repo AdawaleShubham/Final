@@ -663,8 +663,8 @@ pre code {
 
 .container {
   /* width: 100%; */
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -2549,11 +2549,6 @@ pre code {
     -webkit-overflow-scrolling: touch;
   }
 
-
-  .img-none{
-    display:none;
-  }
-
   .table-responsive-sm>.table-bordered {
     border: 0;
   }
@@ -2565,11 +2560,6 @@ pre code {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-  }
-
-
-  .img-none{
-    display:none;
   }
 
   .table-responsive-md>.table-bordered {
@@ -2585,11 +2575,6 @@ pre code {
     -webkit-overflow-scrolling: touch;
   }
 
-  .img-none{
-    display:none;
-  }
- 
-
   .table-responsive-lg>.table-bordered {
     border: 0;
   }
@@ -2601,9 +2586,6 @@ pre code {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-  }
-  .img-none{
-    display:block;
   }
 
   .table-responsive-xl>.table-bordered {
@@ -12241,7 +12223,7 @@ h5,
 .h4,
 .h5 {
   line-height: 1.5;
-  color: #152a76;
+  color: #1d1d1d;
   font-weight: 400;
 }
 
@@ -13730,6 +13712,7 @@ textarea.form-control {
   line-height: 1.2;
   font-size: 40px;
   font-weight: 700;
+  text-align:center;
 }
 
 .heading-section h2 span {
@@ -13778,7 +13761,7 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: 512px;
+  background-size:500px;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -13933,7 +13916,7 @@ textarea.form-control {
 }
 
 .testimony-section .owl-dots {
-  text-align: left;
+  text-align: center;
 }
 
 .testimony-section .owl-dots .owl-dot {
@@ -13960,6 +13943,7 @@ textarea.form-control {
   padding: 10px;
   margin-bottom: 0;
   z-index: 0;
+  margin-left: 8px;
 }
 
 .testimony-wrap .user-img {
@@ -13989,7 +13973,7 @@ textarea.form-control {
 }
 
 .testimony-wrap .text {
-  width: calc(100% - 100px);
+  width: calc(100% );
 }
 
 .testimony-wrap .name {
@@ -14048,7 +14032,7 @@ textarea.form-control {
 
 @media (max-width: 767.98px) {
   .eco-counter .image-overlay {
-    width: auto;
+    width: 100%;
   }
 }
 
