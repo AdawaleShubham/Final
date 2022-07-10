@@ -12949,15 +12949,28 @@ h5,
   /* transparent transparent transparent; */
 }
 
-@media (max-width: 991.98px) {
+@media (max-device-width: 980px) {
   .about-wrap {
     height: 490px;
+    display: block;
   }
 
   .about-wrap .icon {
     margin-right: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .about-wrap {
+    height: 490px;
+    display: block;
+  }
+
+  .about-wrap .icon {
+    margin-right: 0;
+  }
+}
+
 
 .about {
   margin-bottom: 20px;
