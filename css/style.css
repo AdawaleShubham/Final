@@ -14036,6 +14036,13 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 640px) {
+  .eco-counter .image-overlay {
+    width: 100%;
+    display: none;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .eco-counter {
     background-position: center center !important;
