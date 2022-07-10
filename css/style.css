@@ -68,13 +68,14 @@
 }
 
 body {
+  
   padding: 0;
   margin: 0;
   background: #FFF;
   /* font-family: 'Open Sans', sans-serif; */
   /* font-family: "Hind", sans-serif; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   ;
 }
 
@@ -87,36 +88,7 @@ body a {
   text-decoration: none;
 }
 
-/* :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --#386500: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-} */
+
 
 *,
 *::before,
@@ -129,7 +101,7 @@ html {
   /* font-family: sans-serif; */
   /* font-family: "Hind", sans-serif; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -152,7 +124,7 @@ body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -281,7 +253,8 @@ code,
 kbd,
 samp {
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
 }
 
 pre {
@@ -2615,7 +2588,7 @@ pre code {
   height: 20px;
   /* height: calc(1.5em + 0.75rem + 2px); */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
 
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -7268,7 +7241,8 @@ a.close.disabled {
   display: block;
   margin: 0;
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;  font-style: normal;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -7393,7 +7367,8 @@ font-family: 'Nunito', sans-serif;  font-style: normal;
   display: block;
   max-width: 276px;
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;  font-style: normal;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -11819,7 +11794,7 @@ button.bg-dark:focus {
 .text-monospace {
   /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .text-justify {
@@ -12168,7 +12143,7 @@ a.text-dark:focus {
 body {
   /* font-family: "Roboto", Arial, sans-serif; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background: #fff;
   font-size: 17px;
   line-height: 1.8;
@@ -13176,7 +13151,7 @@ h5,
   font-weight: 500;
   /* font-family: "Roboto", Arial, sans-serif; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #fff;
 }
 
@@ -14290,7 +14265,7 @@ textarea.form-control {
   font-size: 13px;
   /* font-family: "Roboto", Arial, sans-serif; */
   font-family: 'Arima', cursive;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: normal;
 }
 
@@ -14455,7 +14430,7 @@ font-family: 'Nunito', sans-serif;
 .contact-section .img {
   width: 100%;
   background-position: top center;
-  
+
 }
 
 .contact-section .contact-info p a {
@@ -14592,8 +14567,8 @@ font-family: 'Nunito', sans-serif;
 
 .block-21 .blog-img {
   display: block;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
 
 .block-21 .text {
@@ -15161,3 +15136,51 @@ font-family: 'Nunito', sans-serif;
 
 
 /* Scroll to top */
+a.vanillatop {
+  background-color: #152a76;
+  border-radius: 50%;
+  bottom: 40px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  transform: translateX(120px);
+  transition: 1s all;
+  width: 40px;
+  z-index: 9999
+}
+
+a.vanillatop::before {
+  color: #fff;
+  content: "▲";
+  font-size: 120%
+}
+
+a.vanillatop:link {
+  text-decoration: none
+}
+
+a.vanillatop:hover {
+  background-color: #3995f4;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .14), 0 1px 7px 0 rgba(0, 0, 0, .12), 0 3px 1px -1px rgba(0, 0, 0, .2)
+}
+
+@media only screen and (min-width: 768px) {
+  a.vanillatop {
+    bottom: 20px;
+    right: 20px
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  a.vanillatop {
+    bottom: 30px;
+    height: 50px;
+    line-height: 50px;
+    right: 30px;
+    width: 50px
+  }
+}

@@ -52,6 +52,12 @@
 <body>
 
 	<!-- TopBar -->
+	<!-- start vanillatop plugin -->
+	</div><a href="#!" class="vanillatop"></a>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
+	</script>
+	<!-- end vanillatop plugin -->
 	<!-- <div class="py-3 top">
 		<div class="container">
 			<div class="row">
@@ -78,7 +84,6 @@
 			</div>
 		</div>
 	</div> -->
-
 
 	<!-- Navbar -->
 
@@ -156,8 +161,6 @@
 	<section class="hero-wrap js-fullheight " data-stellar-background-ratio="0.5">
 		<div>
 			<img class="hero-wrap rounded" style="margin-top: 0px;" id="mobile" src="images/eco/01.jpg" alt="">
-			<!-- <h5>मधुमिलिंद मे मकान ,
-				सुख, शांती, समाधान ....</h5> -->
 		</div>
 
 	</section>
@@ -419,7 +422,7 @@
 		</div>
 	</section>
 	<br>
-	
+
 	<!-- OLD PROJECTS -->
 	<!-- <section class="eco-section" id="project">
 		<div class="container">
@@ -979,7 +982,7 @@
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
 				stroke="#F96D00" />
 		</svg>
-	
+
 
 	</div>
 
