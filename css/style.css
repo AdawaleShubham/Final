@@ -14065,7 +14065,7 @@ textarea.form-control {
 
 .eco-counter .block-18 {
   display: flow-root;
-  width: 40%;
+  width: 45%;
   margin-bottom: 5px;
   background: rgba(0, 0, 0, 0.05);
   background: #fff;
@@ -14076,8 +14076,8 @@ textarea.form-control {
 
 @media (max-width: 767.98px) {
   .eco-counter .block-18 {
-    width: 77%;
-    margin-left: 40%;
+    width: 52%;
+    margin-left: 23%;
     text-align: center;
   }
 }
