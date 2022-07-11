@@ -68,7 +68,7 @@
 }
 
 body {
-  
+
   padding: 0;
   margin: 0;
   background: #FFF;
@@ -690,7 +690,7 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-    
+
   }
 }
 
@@ -5090,7 +5090,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  font-weight:600;
+  font-weight: 600;
 }
 
 .nav-link:hover,
@@ -7905,6 +7905,7 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #007bff !important;
+  border-radius: 15px;
 }
 
 a.bg-primary:hover,
@@ -13154,6 +13155,11 @@ h5,
 @media (min-width: 992px) {
   .eco-services-2 .services {
     margin-top: -70px;
+    border-radius: 15px;
+
+    margin-right: 3px;
+    margin-left: 3px;
+
   }
 }
 
@@ -13726,7 +13732,7 @@ textarea.form-control {
   line-height: 1.2;
   font-size: 40px;
   font-weight: 700;
-  text-align:center;
+  text-align: center;
 }
 
 .heading-section h2 span {
@@ -13775,7 +13781,14 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size:500px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.blog-img2 {
+  background-size: 338px;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -13987,7 +14000,7 @@ textarea.form-control {
 }
 
 .testimony-wrap .text {
-  width: calc(100% );
+  width: calc(100%);
 }
 
 .testimony-wrap .name {
@@ -14451,7 +14464,7 @@ textarea.form-control {
 
 .block-6 .media-body p {
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   color: white;
 }
 
@@ -15251,14 +15264,17 @@ a.vanillatop:hover {
   font-size: 14px;
   background: #e99c02;
 }
+
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #152a76;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
+
 #footer .footer-top .footer-contact h4 {
   font-size: 22px;
   margin: 0 0 30px 0;
@@ -15266,13 +15282,15 @@ a.vanillatop:hover {
   line-height: 1;
   font-weight: 700;
 }
+
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #777777;
 }
+
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
@@ -15280,41 +15298,50 @@ font-family: 'Nunito', sans-serif;
   position: relative;
   padding-bottom: 12px;
 }
+
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
+
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 10pc;
 }
+
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #1c84e3;
   font-size: 18px;
   line-height: 1;
 }
+
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
 }
+
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
+
 #footer .footer-top .footer-links ul a {
   color: #777777;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
+
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #1977cc;
 }
+
 #footer .footer-newsletter {
   font-size: 15px;
 }
+
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
@@ -15322,6 +15349,7 @@ font-family: 'Nunito', sans-serif;
   position: relative;
   padding-bottom: 12px;
 }
+
 #footer .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
@@ -15332,11 +15360,13 @@ font-family: 'Nunito', sans-serif;
   border: 1px solid #bfdcf7;
 
 }
+
 #footer .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
+
 #footer .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
@@ -15351,14 +15381,17 @@ font-family: 'Nunito', sans-serif;
   transition: 0.3s;
   border-radius: 50px;
 }
+
 #footer .footer-newsletter form input[type=submit]:hover {
   background: #1c84e3;
 }
+
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
   color: #444444;
 }
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -15373,6 +15406,7 @@ font-family: 'Nunito', sans-serif;
   height: 36px;
   transition: 0.3s;
 }
+
 #footer .social-links a:hover {
   background: #1c84e3;
   color: #fff;
@@ -15385,6 +15419,7 @@ font-family: 'Nunito', sans-serif;
   height: auto;
   margin-left: 10px;
 }
+
 /* 8888888888888888 */
 
 /* Sticky */
@@ -15397,4 +15432,3 @@ font-family: 'Nunito', sans-serif;
 
 
 /* container-1 */
-
