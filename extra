@@ -159,6 +159,47 @@
 
 
 
+<!-- Testimonials -->
+<div class="item">
+	<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+		<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)">
+			<span class="quote d-flex align-items-center justify-content-center">
+				<i class="fa fa-quote-left"></i>
+			</span>
+		</div> -->
+		<div class="text">
+			<p class="mb-4">he project is embellished with superb interior . There are
+				2 -3 lifts have been planned and the window will be decorated with the
+				aluminum
+				slides. YASHRAJ COMPLEX Project has sufficient points of electrical points
+				with
+				the furniture layout.</p>
+			<p class="name">RAJU PATIL</p>
+			<span class="position">OWNER</span>
+		</div>
+	</div>
+</div>
+<div class="item">
+	<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+		<!-- <div class="user-img" style="background-image: url(images/person_2.jpg)">
+			<span class="quote d-flex align-items-center justify-content-center">
+				<i class="fa fa-quote-left"></i>
+			</span>
+		</div> -->
+		<div class="text">
+			<p class="mb-4">Hi, even thinking of investing in the house of MADHUMILIND
+				Construction
+				, I have been to a few of these projects like bayview , anchorge , amalfi ,
+				sinovia , edina when I was home searching for my family.</p>
+			<p class="name">HIMANSHU GUJRATHI</p>
+			<span class="position">OWNER</span>
+		</div>
+	</div>
+</div>
+
+
+
+
 
 
 	<!-- <div class="container">
