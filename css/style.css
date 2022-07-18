@@ -15484,7 +15484,7 @@ a.vanillatop:hover {
     background: #1d1d1d;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
-    width: 90%;
+    width: 95%;
     height: 230px;
     border: 6px solid #e99c02;
     margin: auto;
@@ -15616,3 +15616,5 @@ a.vanillatop:hover {
     text-align: left;
   }
 }
+
+
