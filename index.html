@@ -112,7 +112,7 @@
 							class="fa fa-paper-plane"></span>
 					</div>
 					<div class="text pl-3 pl-md-6">
-						<p class="hr"><span>Our Location</span></p>
+						<p class="con"><span>Our Location</span></p>
 						<p class="con">S.No.67/9 Near Building No. 75 ,Vrundavan Society,Thane(West)</p>
 					</div>
 				</div>
@@ -951,9 +951,43 @@
 								<div class="form-group">
 									<!-- <button class="btn btn-primary hero-style" id="sub" type="submit"
 										onclick="reset()"> Submit</button> -->
-									<button type="submit" class="btn btn-primary">Send</button>
+									<button type="submit" class="btn btn-primary" data-toggle="modal"
+										data-target="#exampleModal">Send</button>
+								</div>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+									aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu Builder
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												Thank You For Connecting Us.
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary"
+													data-dismiss="modal">Close</button>
+												<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
+							<!-- Button trigger modal -->
+							<!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#exampleModal">
+								Launch demo modal
+							</button> -->
+
+
 						</div>
 						<script>
 							window.addEventListener("load", function () {
@@ -967,12 +1001,13 @@
 										body: data,
 									})
 										.then(() => {
-											window.location.href = '/index.html';
+											window.location.href = '/';
 										})
 								});
 							});
 						</script>
 					</form>
+
 
 				</div>
 				<div>
@@ -1104,7 +1139,7 @@
 		<footer>
 			<div class="container">
 				<div class="row d-flex align-items-start align-items-center px-4 px-md-0">
-					
+
 					<div class="col-md-4 d-flex mb-2 mb-md-0 ml-1">
 						<a class="navbar-brand d-flex align-items-center" style="font-size: 29px;">
 							<span class="ml-2 text-center" style="color:orange;">Eco-Vastu builders</span>
@@ -1130,7 +1165,7 @@
 				<li class="list-inline-item"><a href="#Project-Highlights">Madhu-Milind Residency</a></li>
 				<li class="list-inline-item"><a href="#contact-section">Contact</a></li>
 			</ul>
-			
+
 			<p class="copyright">Eco-Vastu Builders © 2022</p>
 
 		</footer>
@@ -1141,7 +1176,7 @@
 
 	<!-- ? -->
 	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true" id="IDModal">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -1191,13 +1226,7 @@
 									placeholder="Message"></textarea>
 							</div>
 							<div class="form-group">
-								<!-- <input type="submit" onclick="SubForm ()" value="Request A Quote"
-									class="btn btn-primary py-3 px-4"> -->
-
-								<button type="submit" class="btn btn-primary py-3 px-5">Submit</button>
-
-								<!-- <button onclick='SubForm()' type="submit"
-									class="btn btn-primary py-3 px-4">Submit</button> -->
+								<button type="submit" class="btn btn-primary py-3 px-5" id="btn-save" > Submit</button>
 							</div>
 						</div>
 						<script>
@@ -1212,10 +1241,11 @@
 										body: data,
 									})
 										.then(() => {
-											window.location.href = '/index.html';
+											window.location.href = '/';
 										})
 								});
 							});
+
 						</script>
 					</form>
 				</div>
