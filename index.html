@@ -923,8 +923,12 @@
 
 			<div class="row block-8">
 				<div class="col-md-8">
-					<form method="POST" class="p-3 p-md-5 contact-form" id="googleform"
-						action="https://script.google.com/macros/s/AKfycbwoypntYD4Hzd_s8zqCTAYThOh-rN0AhHE7gQlYK7Vyp333c4iz1cu_XB3uXHxFp6e4/exec">
+
+					<form class="p-3 p-md-5 contact-form" id="googleform"
+						action="https://script.google.com/macros/s/AKfycbzLvCkYOj5XeYhEDBls-wTFjrBMIJmZ38bRp6odkQjBdbPWDpOP1Cfq8cBr9kkvcQTe/exec"
+						method="post" data-email="shubhamadawale2210@gmail.com">
+
+
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
@@ -952,16 +956,17 @@
 									<!-- <button class="btn btn-primary hero-style" id="sub" type="submit"
 										onclick="reset()"> Submit</button> -->
 									<button type="submit" class="btn btn-primary" data-toggle="modal"
-										data-target="#exampleModal" onclick="return confirmDel();">Send</button>
+										data-target="#exampleModal">Send</button>
 								</div>
 
 								<!-- Modal -->
-								<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
 									aria-labelledby="exampleModalLabel" aria-hidden="true">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
-												<h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu Builder
+												<h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
+													Builders
 												</h5>
 
 												<button type="button" class="close" data-dismiss="modal"
@@ -978,7 +983,7 @@
 											</div>
 										</div>
 									</div>
-								</div> -->
+								</div>
 							</div>
 
 
@@ -999,9 +1004,6 @@
 										})
 								});
 							});
-							function confirmDel() {
-								alert("Thank You For Connecting Us...")
-							}
 						</script>
 					</form>
 
@@ -1184,9 +1186,15 @@
 				</div>
 				<div class="modal-body p-4 p-md-5">
 
-					<form method="POST" id="googleform2"
-						action="https://script.google.com/macros/s/AKfycbzA55mZAMoClAJgqmXpiOcclHlqt4vw1KNqmT1-UqcWDBo90T54Tyqy3P7dCPjZWWir/exec"
-						class="appointment-form eco-animate">
+					<!-- <form method="POST" id="googleform2"
+						action="https://script.google.com/macros/s/AKfycbwD70XyalgiMB0qVltawuC-MNAMYLiLjhGR8WaJzaVLDEKQ4yNWmtObODFuD37Xp8ZPlA/exec"
+						class="appointment-form eco-animate"> -->
+
+
+					<form class="appointment-form eco-animate" id="googleform2"
+						action="https://script.google.com/macros/s/AKfycbxk3HI5cRPb0NA4IOSc8cg1minfnLKhW7cP6JUUmUBVw055ZNWJbxQMiOp7moTXlwN52Q/exec"
+						method="post" data-email="shubhamadawale2210@gmail.com">
+
 						<h3>Request Quote</h3>
 						<div class="">
 							<div class="form-group">
@@ -1223,8 +1231,7 @@
 									placeholder="Message"></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-primary py-3 px-5" id="btn-save"
-									onclick="return confirmDel();"> Submit</button>
+								<button type="submit" class="btn btn-primary py-3 px-5"> Submit</button>
 							</div>
 						</div>
 						<script>
@@ -1244,9 +1251,6 @@
 								});
 							});
 
-							function confirmDel() {
-								alert("Thank You For Connecting Us...")
-							}
 						</script>
 					</form>
 				</div>
